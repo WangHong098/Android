@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_Size">
+        <menu>
+            <item
+                android:id="@+id/menu_size_small"
+                android:title="@string/Size_ten"/>
+            <item
+                android:id="@+id/menu_size_middle"
+                android:title="@string/Size_sixteen"/>
+            <item
+                android:id="@+id/menu_size_big"
+                android:title="@string/Size_twenty"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_normal"
+        android:title="@string/menu_Normal">
+    </item>
+    <item android:title="@string/menu_Color">
+        <menu>
+            <item
+                android:id="@+id/menu_color_red"
+                android:title="@string/Color_red" />
+            <item
+                android:id="@+id/menu_color_black"
+                android:title="@string/Color_black"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MenuXml</string>
+    <string name="menu_Size">字体大小</string>
+    <string name="menu_Normal">普通菜单项</string>
+    <string name="menu_Color">字体颜色</string>
+    <string name="Size_ten">小： 10号字</string>
+    <string name="Size_sixteen">中： 16号字</string>
+    <string name="Size_twenty">大： 20号字</string>
+    <string name="Color_red">红色</string>
+    <string name="Color_black">黑色</string>
+</resources>

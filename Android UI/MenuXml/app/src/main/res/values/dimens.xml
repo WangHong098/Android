@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_ten">10sp</dimen>
+    <dimen name="size_sixteen">16sp</dimen>
+    <dimen name="size_twenty">20sp</dimen>
+    <dimen name="size_normal">12px</dimen>
+</resources>

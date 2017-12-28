@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="RED"
+        android:textColor="#000"
+        android:background="@color/colorRed"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="YELLOW"
+        android:textColor="#000"
+        android:background="@color/colorYellow"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="ORANGE"
+        android:textColor="#000"
+        android:background="@color/colorOrange"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="BLUE"
+        android:textColor="#000"
+        android:background="@color/colorBlue"
+        android:layout_centerInParent="true" />
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="GREEN"
+        android:textColor="#000"
+        android:background="@color/colorGreen"
+        android:layout_alignTop="@id/blue"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/blue"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="INDIGO"
+        android:textColor="#000"
+        android:background="@color/colorIndigo"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/blue"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:id="@+id/violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="VIOLET"
+        android:textColor="#000"
+        android:background="@color/colorViolet"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
