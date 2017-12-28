@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentURL</string>
+    <string name="in">请输入网址</string>
+    <string name="search">浏览该网页</string>
+</resources>
